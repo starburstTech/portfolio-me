@@ -218,6 +218,23 @@ footer {
 	gap: 12px;
 }
 
+.hero-photo {
+	align-self: center;
+	border-radius: var(--radius);
+	border: 1px solid var(--border);
+	padding: 10px;
+	background: rgba(15, 23, 42, 0.35);
+	box-shadow: var(--shadow);
+}
+
+.hero-photo img {
+	width: 100%;
+	height: auto;
+	aspect-ratio: 4 / 5;
+	object-fit: cover;
+	border-radius: calc(var(--radius) - 8px);
+}
+
 .project-card {
 	background: var(--card);
 	border-radius: var(--radius);
