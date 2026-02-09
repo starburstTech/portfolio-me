@@ -1,0 +1,66 @@
+/* Print-friendly layout for resume output */
+
+* {
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+body {
+	background: #ffffff;
+	color: #000000;
+	font-family: "Times New Roman", serif;
+	line-height: 1.4;
+}
+
+header {
+	position: static;
+	background: transparent;
+	border: none;
+	padding: 16px 0 8px;
+}
+
+.nav-links,
+.button,
+.cta-row {
+	display: none !important;
+}
+
+.container {
+	width: 100%;
+	margin: 0;
+}
+
+.section {
+	padding: 24px 0;
+}
+
+.hero {
+	padding: 24px 0 16px;
+}
+
+.hero-card,
+.project-card,
+.contact-card {
+	border: 1px solid #d1d5db;
+	background: #ffffff;
+}
+
+.chip {
+	border-color: #9ca3af;
+	background: #f3f4f6;
+	color: #111827;
+}
+
+img {
+	display: none;
+}
+
+footer {
+	color: #000000;
+	padding: 16px 0 0;
+}
+
+a {
+	color: #000000;
+	text-decoration: underline;
+}

@@ -5,36 +5,251 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta
 			name="description"
-			content="Portfolio of Iftekher Ali featuring web development projects and contact information."
+			content="Senior Software Quality Assurance Engineer portfolio featuring summary, skills, experience, and references."
 		/>
-		<title>Iftekher Ali's Portfolio</title>
+		<title>Senior QA Engineer Portfolio</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+		/>
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<link rel="stylesheet" href="./assets/css/print.css" media="print" />
 	</head>
 	<body>
 		<header>
-			<nav>
-				<a href="./index.html">Home</a>
-				<a href="./public/about.html">About</a>
-				<a href="./public/contact.html">Contact</a>
-			</nav>
+			<div class="container nav">
+				<a class="brand" href="./index.html">Senior QA Engineer</a>
+				<nav class="nav-links">
+					<a href="#summary">Summary</a>
+					<a href="#skills">Skills</a>
+					<a href="#experience">Experience</a>
+					<a href="#education">Education</a>
+					<a href="#references">References</a>
+				</nav>
+			</div>
 		</header>
-		<h1>Iftekher Ali's Portfolio</h1>
-		<h2>I'm a Web Developer</h2>
-		<hr />
-		<h3><a href="./public/movie-ranking.html">Movie Ranking Project</a></h3>
-		<img
-			src="./assets/images/movie-ranking.png"
-			height="200"
-			alt="movie ranking project preview"
-		/>
-		<h3><a href="./public/birthday-invite.html">Birthday Invite Project</a></h3>
-		<img
-			src="./assets/images/birthday-invite.png"
-			height="200"
-			alt="birthday invite project preview"
-		/>
-		<hr />
+
+		<main>
+			<section id="summary" class="hero container">
+				<div class="fade-in">
+					<h1>Senior Software Quality Assurance Engineer</h1>
+					<p>
+						Experienced Senior Software Quality Assurance Engineer with a record of
+						accomplishment of ensuring top-tier software quality through strategic
+						planning, efficient testing methodologies, and leadership in
+						cross-functional teams. Proficient in test automation, continuous
+						integration, cloud testing, and process optimization. Committed to
+						delivering reliable, high-quality software.
+					</p>
+					<div class="cta-row">
+						<a class="button primary" href="#experience">View Experience</a>
+						<a class="button ghost" href="#references">References</a>
+					</div>
+				</div>
+				<div class="hero-card fade-in delay-1">
+					<h2>Core strengths</h2>
+					<ul>
+						<li>Automation frameworks in Selenium, TestNG, Cypress, Playwright.</li>
+						<li>API testing with REST-Assured, Postman, SOAP and RESTful services.</li>
+						<li>CI/CD and cloud execution with Jenkins, Azure DevOps, BrowserStack.</li>
+					</ul>
+					<div class="cta-row">
+						<a class="button ghost" href="#skills">View Skills</a>
+						<a class="button ghost" href="#education">Education</a>
+					</div>
+				</div>
+			</section>
+
+			<section id="skills" class="section container">
+				<h2 class="fade-in">Skills</h2>
+				<p class="lead fade-in delay-1">
+					Test strategy, automation, and quality engineering across web, API, and
+					cloud platforms.
+				</p>
+				<div class="skills">
+					<span class="chip">TDD/BDD</span>
+					<span class="chip">JUnit / TestNG</span>
+					<span class="chip">Salesforce / HubSpot</span>
+					<span class="chip">Test Automation</span>
+					<span class="chip">Cucumber / Gherkin</span>
+					<span class="chip">Git / GitHub / Bitbucket</span>
+					<span class="chip">Test Case Design</span>
+					<span class="chip">Defect Management</span>
+					<span class="chip">REST / SOAP API Testing</span>
+					<span class="chip">SQL / Database</span>
+					<span class="chip">Appium</span>
+					<span class="chip">Leadership</span>
+					<span class="chip">Agile / Scrum</span>
+					<span class="chip">Cypress / Playwright</span>
+					<span class="chip">Selenium</span>
+					<span class="chip">Java / JavaScript</span>
+					<span class="chip">Postman / JMeter</span>
+					<span class="chip">REST-Assured</span>
+					<span class="chip">Azure DevOps</span>
+					<span class="chip">Jira / Confluence</span>
+					<span class="chip">Jenkins CI/CD</span>
+					<span class="chip">BrowserStack</span>
+				</div>
+			</section>
+
+			<section id="experience" class="section container">
+				<h2 class="fade-in">Experience</h2>
+				<p class="lead fade-in delay-1">
+					Leadership in QA strategy, automation, and delivery across enterprise
+					platforms and regulated industries.
+				</p>
+				<div class="project-grid">
+					<article class="project-card fade-in">
+						<h3>Lead Engineer, SDET (Project Management)</h3>
+						<span>Insight Global LLC (Client: T-Mobile) | 02/2024 - 12/2025</span>
+						<ul>
+							<li>
+								Led and coordinated onshore and offshore QA engineers and architects
+								for the Magenta Prepaid team.
+							</li>
+							<li>
+								Confirmed cross-module integrations between Order Management, Billing,
+								CRM, and Provisioning platforms.
+							</li>
+							<li>
+								Designed modular automation frameworks using Selenium and TestNG.
+							</li>
+							<li>
+								Built API automation with Rest-Assured, token authentication, and
+								dynamic parameterization, reducing manual testing by 40%.
+							</li>
+							<li>
+								Used Jira and qTest for test case management, defects, and reporting.
+							</li>
+						</ul>
+					</article>
+					<article class="project-card fade-in delay-1">
+						<h3>Senior QA Engineer</h3>
+						<span>Brooksource (Client: Humana) | 02/2023 - 02/2024</span>
+						<ul>
+							<li>
+								Increased test coverage by 85% using JavaScript and Cypress.
+							</li>
+							<li>
+								Executed Cypress tests on BrowserStack across major browsers.
+							</li>
+							<li>
+								Integrated BrowserStack with CI pipelines for parallel execution.
+							</li>
+							<li>
+								Validated APIs with Postman across multi-environment setups.
+							</li>
+							<li>
+								Streamlined QA processes with root cause analysis, reducing defects
+								by 25%.
+							</li>
+						</ul>
+					</article>
+					<article class="project-card fade-in delay-2">
+						<h3>Senior QA Engineer</h3>
+						<span>Tricolor Auto Group LLC | 01/2022 - 01/2023</span>
+						<ul>
+							<li>
+								Defined test plans and strategies for HubSpot SaaS products.
+							</li>
+							<li>
+								Built maintainable Playwright frameworks and reduced cycle time by 30%.
+							</li>
+							<li>
+								Executed cloud runs with Azure Playwright Testing across browsers.
+							</li>
+							<li>
+								Integrated Playwright cloud runs with Azure DevOps pipelines.
+							</li>
+							<li>
+								Configured retries, headless runs, and environment-based configs.
+							</li>
+						</ul>
+					</article>
+					<article class="project-card fade-in">
+						<h3>QA Engineer</h3>
+						<span>3Bridge Solution LLC (Client: MoneyGram) | 09/2021 - 12/2021</span>
+						<ul>
+							<li>
+								Built Selenium + TestNG framework with data-driven testing.
+							</li>
+							<li>
+								Delivered API automation with Rest-Assured and token auth.
+							</li>
+							<li>
+								Wrote complex SQL queries for data analysis and reporting.
+							</li>
+							<li>
+								Integrated automation with Jenkins for regression and smoke suites.
+							</li>
+						</ul>
+					</article>
+					<article class="project-card fade-in delay-1">
+						<h3>QA Analyst</h3>
+						<span>
+							Validity Green LLC (Client: Moss Adams) | 01/2014 - 08/2021
+						</span>
+						<ul>
+							<li>
+								Developed test plans, cases, and data for functional and UAT testing.
+							</li>
+							<li>
+								Maintained test artifacts in Excel and SharePoint with traceability.
+							</li>
+							<li>
+								Built Selenium Java automation with JUnit and Maven, cutting manual
+								effort by 40%.
+							</li>
+							<li>
+								Validated data loads using SQL queries.
+							</li>
+						</ul>
+					</article>
+				</div>
+			</section>
+
+			<section id="education" class="section container">
+				<h2 class="fade-in">Education</h2>
+				<p class="lead fade-in delay-1">
+					Globe Institute of Technology - New York, USA | Bachelor of Science in
+					Information Technology
+				</p>
+			</section>
+
+			<section id="references" class="section container">
+				<h2 class="fade-in">References</h2>
+				<p class="lead fade-in delay-1">
+					Professional references available below.
+				</p>
+				<div class="contact">
+					<div class="contact-card">
+						<h3>Shawna Gonzales</h3>
+						<p>Sr Engineer, SDET - T-Mobile</p>
+						<p>Shawna.L.Kobe@t-mobile.com</p>
+						<p>(816) 820-7181</p>
+					</div>
+					<div class="contact-card">
+						<h3>Symun Moyeen</h3>
+						<p>Senior QA Engineer - Moss Adams</p>
+						<p>symun.moyeen@gmail.com</p>
+						<p>(347) 285-6644</p>
+					</div>
+					<div class="contact-card">
+						<h3>Thomas Kahnoski</h3>
+						<p>Sr. Director Product Development and Engineering</p>
+						<p>Tricolor Holdings</p>
+						<p>Thomas.kahnoski@tricolor.com</p>
+						<p>+1 (972) 281-7089</p>
+					</div>
+				</div>
+			</section>
+
+		</main>
+
 		<footer>
-			<p>© 2026 Iftekher Ali</p>
+			<p>© 2026 Senior QA Engineer Portfolio.</p>
 		</footer>
 	</body>
 </html>
